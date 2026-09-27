@@ -1,0 +1,25 @@
+.scheduler-card{
+    background:white;
+    border-radius:12px;
+    padding:20px;
+    margin-top:30px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
+
+.status{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin:20px 0;
+}
+
+.running{
+    width:14px;
+    height:14px;
+    border-radius:50%;
+    background:green;
+}
+
+.scheduler-info p{
+    margin:10px 0;
+}

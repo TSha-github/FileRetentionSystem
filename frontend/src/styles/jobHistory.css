@@ -1,0 +1,72 @@
+.main-content {
+  margin-left: 260px;
+  min-height: 100vh;
+  background: #f5f7fb;
+}
+
+.history-container {
+  padding: 30px;
+}
+
+.history-header {
+  margin-bottom: 25px;
+}
+
+.history-header h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1e293b;
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  width: 350px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.history-table th {
+  background: #2563eb;
+  color: white;
+  padding: 15px;
+  text-align: left;
+}
+
+.history-table td {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.history-table tr:hover {
+  background: #f8fafc;
+}
+
+.history-enabled,
+.history-disabled {
+  padding: 5px 12px;
+  border-radius: 20px;
+  color: white;
+  font-size: 13px;
+}
+
+.history-enabled {
+  background: #22c55e;
+}
+
+.history-disabled {
+  background: #ef4444;
+}

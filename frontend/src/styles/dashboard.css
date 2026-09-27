@@ -1,0 +1,66 @@
+/* Main dashboard layout */
+
+.dashboard-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #f5f7fb;
+}
+
+
+/* Main area beside sidebar */
+
+.dashboard-main {
+  flex: 1;
+  margin-left: 260px;
+  min-height: 100vh;
+}
+
+
+/* Dashboard content */
+
+.dashboard-content {
+  padding: 30px;
+}
+
+
+/* Dashboard heading */
+
+.dashboard-content h1 {
+  margin: 0 0 25px 0;
+  font-size: 32px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+
+/* Dashboard cards */
+
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 1100px) {
+  .dashboard-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .dashboard-main {
+    margin-left: 0;
+  }
+
+  .dashboard-content {
+    padding: 20px;
+  }
+
+  .dashboard-cards {
+    grid-template-columns: 1fr;
+  }
+}
